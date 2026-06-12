@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm ci
+      - name: Optimize images
+        run: npm run optimize-images
+      - name: Run linters
+        run: npm run lint
+      - name: Serve site and run Lighthouse CI
+        run: |
+          npx http-server . -c-1 -p 8080 &
+          sleep 2
+          npx lhci autorun --upload.target=temporary-public-storage

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0E1318" />
+  <meta name="description" content="Promeos provides hands-on machine shop production setup consulting, CNC setup support, fixturing, documentation, and production launch assistance." />
+
+  <meta property="og:title" content="Promeos — Machine Shop Production Setup Consulting" />
+  <meta property="og:description" content="Hands-on CNC setup and production launch support for machine shops." />
+  <meta property="og:type" content="website" />
+
+  <title>Promeos — Machine Shop Production Setup Consulting</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Orbitron:wght@700;900&display=swap" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+  </noscript>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#home" class="site-logo" aria-label="Promeos home">
+        <img src="assets/FullLogo_Transparent_NoBuffer.png" alt="Promeos" width="220" height="36" loading="lazy" decoding="async" />
+      </a>
+
+      <ul class="site-nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="mobileNav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#why">Why Us</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <section class="hero zone-dark" id="home" data-bg="#0E1318">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true">
+        <svg width="100%" height="100%">
+          <defs>
+            <pattern id="smallgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+              <path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" stroke-width="0.5" />
+            </pattern>
+            <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+              <rect width="100" height="100" fill="url(#smallgrid)" />
+              <path d="M 100 0 L 0 0 0 100" fill="none" stroke="currentColor" stroke-width="1" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
+      </div>
+
+      <div class="hero__content">
+        <span class="hero__brand">Promeos</span>
+        <span class="eyebrow">Machine Shop Production Consulting</span>
+        <h1>Setup Right.<br />Run Tight.<br /><em>Ship On Time.</em></h1>
+
+        <div class="hero__actions">
+          <a href="#contact" class="button button--primary">Get a Free Assessment</a>
+          <a href="#services" class="button button--ghost">What We Do</a>
+        </div>
+
+        <div class="hero__stats" aria-label="Company metrics">
+          <div class="stat">
+            <strong class="stat__number">0+</strong>
+            <span class="stat__label">Setups Optimized</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number">0%</strong>
+            <span class="stat__label">Avg. Cycle Time Saved</span>
+          </div>
+          <div class="stat">
+            <strong class="stat__number">0</strong>
+            <span class="stat__label">Satisfied Customers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section zone-dark" data-bg="#1A2535">
+      <div class="section__header reveal">
+        <span class="section__label">What We Do</span>
+        <h2 class="section__title">Production Setup<br />Consulting Services</h2>
+        <p class="section__intro">We specialize in the full lifecycle of machine shop setup — from first article to production-ready. Every engagement is hands-on, not advisory.</p>
+      </div>
+
+      <div class="grid grid--services">
+        <article class="card card--service reveal reveal-delay-1">
+          <div class="card__icon" aria-hidden="true">01</div>
+          <h3>New Part Setup</h3>
+          <p>We analyze your print, select tooling, write or review your program, and verify the first article — so your machinists are not troubleshooting from scratch.</p>
+        </article>
+        <article class="card card--service reveal reveal-delay-2">
+          <div class="card__icon" aria-hidden="true">02</div>
+          <h3>Cycle Time Reduction</h3>
+          <p>We audit existing setups for wasted motion, suboptimal feeds and speeds, redundant operations, and fixturing inefficiencies — then make the changes with you.</p>
+        </article>
+        <article class="card card--service reveal reveal-delay-3">
+          <div class="card__icon" aria-hidden="true">03</div>
+          <h3>Workholding &amp; Fixturing</h3>
+          <p>Custom and modular fixturing solutions designed for repeatability, fast changeover, and consistent tolerance on complex geometries.</p>
+        </article>
+        <article class="card card--service reveal reveal-delay-1">
+          <div class="card__icon" aria-hidden="true">04</div>
+          <h3>Setup Documentation</h3>
+          <p>We create clear, photo-referenced setup sheets your operators can follow without calling the engineer — reducing errors and onboarding time.</p>
+        </article>
+        <article class="card card--service reveal reveal-delay-2">
+          <div class="card__icon" aria-hidden="true">05</div>
+          <h3>Machinist Training</h3>
+          <p>Structured on-machine training focused on setup efficiency, tool management, and reading GD&amp;T — practical skills that stick.</p>
+        </article>
+        <article class="card card--service reveal reveal-delay-3">
+          <div class="card__icon" aria-hidden="true">06</div>
+          <h3>Production Launch</h3>
+          <p>We help transition jobs from first article to repeatable production with documented processes, operator checks, and stable handoff routines.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="section zone-warm" data-bg="#C8841A">
+      <div class="section__header reveal">
+        <span class="section__label">How It Works</span>
+        <h2 class="section__title">Defined Scope. Clear Timeline.<br />Done.</h2>
+        <p class="section__intro">Every project follows a defined scope with a clear end state. You will know exactly what we are doing and when we are done.</p>
+      </div>
+
+      <div class="grid grid--process">
+        <article class="card card--process reveal reveal-delay-1">
+          <span class="step-number">01</span>
+          <h3>Shop Assessment</h3>
+          <p>We spend a day on your floor reviewing current setups, your job mix, equipment, and where time and quality are being lost.</p>
+        </article>
+        <article class="card card--process reveal reveal-delay-2">
+          <span class="step-number">02</span>
+          <h3>Locked-In Cost &amp; Timeline</h3>
+          <p>We discuss scope, timeline, and cost upfront. No ambiguity, No running the clock. No surprises from day 1.</p>
+        </article>
+        <article class="card card--process reveal reveal-delay-3">
+          <span class="step-number">03</span>
+          <h3>On-Site Execution</h3>
+          <p>We work beside your team on your machines. Changes are made, tested, and documented in real time.</p>
+        </article>
+        <article class="card card--process reveal reveal-delay-4">
+          <span class="step-number">04</span>
+          <h3>Handoff &amp; Follow-Up</h3>
+          <p>You receive complete setup documentation and a follow-up check. If something drifts, we help correct it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="why" class="section zone-warm" data-bg="#D4941A">
+      <div class="section__header reveal">
+        <span class="section__label">Why Promeos</span>
+        <h2 class="section__title">We Have Run the Machines<br />We Consult On</h2>
+        <p class="section__intro">Our consultants are former setup machinists with time in job shops, aerospace, and production environments.</p>
+      </div>
+
+      <div class="why-grid">
+        <article class="why-item reveal reveal-delay-1">
+          <h3>No Clipboard Consulting</h3>
+          <p>We touch the machines, adjust the offsets, and run the programs ourselves.</p>
+        </article>
+        <article class="why-item reveal reveal-delay-2">
+          <h3>Empower Your Team</h3>
+          <p>We document everything and train your people as we work, so you can handle similar setups independently next time.</p>
+        </article>
+        <article class="why-item reveal reveal-delay-3">
+          <h3>Real Floor Conditions</h3>
+          <p>Solutions are designed for your actual equipment, staff, job mix, and deadline pressure.</p>
+        </article>
+        <article class="why-item reveal reveal-delay-1">
+          <h3>Hands-On Training</h3>
+          <p>We work beside your team on real setups, so your operators learn by doing, not by watching.</p>
+        </article>
+        <article class="why-item reveal reveal-delay-2">
+          <h3>CNC &amp; Manual Experience</h3>
+          <p>Fanuc, Haas, Mazak, Okuma, Hurco, and manual turning and milling.</p>
+        </article>
+        <article class="why-item reveal reveal-delay-3">
+          <h3>Shop-Hour Availability</h3>
+          <p>Support can be structured from sunrise till sunset.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="team" class="section zone-dark" data-bg="#2A4055">
+      <div class="section__header reveal">
+        <span class="section__label">The Consultants</span>
+        <h2 class="section__title">Who Is Coming<br />to Your Floor</h2>
+        <p class="section__intro">Two consultants, different specialties — covering a wide range of equipment and processes found in job shops and production environments.</p>
+      </div>
+
+      <div class="grid grid--team">
+        <article class="card card--team reveal reveal-delay-1">
+          <div class="team-card__header">
+            <div class="team-avatar" aria-hidden="true">P</div>
+            <div>
+              <h3>Emil Isayan</h3>
+              <p>Co-Founder &amp; Consultant</p>
+            </div>
+          </div>
+          <p>Specializes in multi-process shops — from CNC milling through fabrication and wiring. Comfortable across the full production floor.</p>
+          <ul class="tag-list" aria-label="Capabilities">
+            <li>3-Axis CNC Milling</li>
+            <li>Laser Cutting</li>
+            <li>Press Brake</li>
+            <li>Wire Harnesses</li>
+            <li>Welding Fixtures</li>
+          </ul>
+        </article>
+
+        <article class="card card--team reveal reveal-delay-2">
+          <div class="team-card__header">
+            <div class="team-avatar" aria-hidden="true">P</div>
+            <div>
+              <h3>Partner's Name</h3>
+              <p>Co-Founder &amp; Consultant</p>
+            </div>
+          </div>
+          <p>Focused on complex multi-axis work and turning. Experienced with tight-tolerance parts requiring 4th and 5th axis strategies.</p>
+          <ul class="tag-list" aria-label="Capabilities">
+            <li>3-Axis CNC Milling</li>
+            <li>4-Axis CNC Milling</li>
+            <li>5-Axis CNC Milling</li>
+            <li>CNC Lathe</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section zone-dusk" data-bg="#1C2E3A">
+      <div class="section__header reveal">
+        <span class="section__label">Client Results</span>
+        <h2 class="section__title">Heard on the Floor</h2>
+        <p class="section__intro">Results from shops that brought us in for setup optimization and production launch support.</p>
+      </div>
+
+      <div class="grid grid--testimonials">
+        <article class="testimonial reveal reveal-delay-1">
+          <blockquote>We were losing nearly 90 minutes per shift to setup on a family of aluminum housings. Promeos came in for three days and cut that to under 25 minutes.</blockquote>
+          <p><strong>Dave Kowalski</strong><br />Operations Manager, Precision Components Inc.</p>
+        </article>
+        <article class="testimonial reveal reveal-delay-2">
+          <blockquote>We had a new machinist burning parts trying to learn setups on the fly. After Promeos's training week, he was running first articles confidently.</blockquote>
+          <p><strong>Maria Solis</strong><br />Owner, SolTech Machining</p>
+        </article>
+        <article class="testimonial reveal reveal-delay-3">
+          <blockquote>Their fixturing redesign for our 4-axis work was something our own engineers had been circling for months. They solved it on-site.</blockquote>
+          <p><strong>Tom Brecker</strong><br />Plant Supervisor, Northgate Aero Parts</p>
+        </article>
+        <article class="testimonial reveal reveal-delay-4">
+          <blockquote>We brought Promeos in to help launch a high-mix stainless job we had never run before. They had us making good parts by the end of day two.</blockquote>
+          <p><strong>Alex Morgan</strong><br />Production Lead, Westline Manufacturing</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section zone-dark" data-bg="#0E1318">
+      <div class="section__header reveal">
+        <span class="section__label">Get In Touch</span>
+        <h2 class="section__title">Ready to Tighten Up<br />Your Production?</h2>
+        <p class="section__intro">Reach out directly — we will set up a shop assessment and take it from there.</p>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card reveal reveal-delay-1">
+          <span class="contact-card__label">Call or Text</span>
+          <a href="tel:+16165550182" class="contact-card__value">(616) 555-0182</a>
+          <p>Available first and second shift hours. For urgent shop situations, call.</p>
+        </article>
+        <article class="contact-card reveal reveal-delay-2">
+          <span class="contact-card__label">Email</span>
+          <a href="mailto:projects@promeos.com?subject=Free%20Shop%20Assessment%20Request&body=Shop%20name:%0AEquipment:%0ASetup%20challenge:%0ATimeline:" class="contact-card__value">projects@promeos.com</a>
+          <p>Describe your setup challenge and we will respond with next steps.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="site-footer__logo" aria-label="Promeos home">
+      <img src="assets/FullLogo_Transparent_NoBuffer.png" alt="Promeos" width="210" height="30" loading="lazy" decoding="async" />
+    </a>
+    <p>© 2026 Promeos LLC · Machine Shop Production Setup Consulting</p>
+  </footer>
+</body>
+</html>R
