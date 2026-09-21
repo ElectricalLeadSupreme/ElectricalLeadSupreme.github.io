@@ -80,7 +80,7 @@ select {
   --light: #c8c4bc;
 
   --page-padding: 5vw;
-  --nav-height: 62px;
+  --nav-height: 78px;
   --card-transition: background 0.28s ease, transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
 
@@ -144,9 +144,9 @@ button:focus-visible {
 }
 
 .site-logo img {
-  height: 50px;
-  width: auto;
-  max-width: min(190px, 55vw);
+  width: min(190px, 55vw);
+  height: auto;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -740,9 +740,9 @@ button:focus-visible {
 }
 
 .site-footer__logo img {
-  height: 40px;
-  width: auto;
-  max-width: min(180px, 55vw);
+  width: min(180px, 55vw);
+  height: auto;
+  max-width: 100%;
   object-fit: contain;
 }
 
