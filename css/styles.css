@@ -144,9 +144,9 @@ button:focus-visible {
 }
 
 .site-logo img {
-  height: 36px;
+  height: 50px;
   width: auto;
-  max-width: min(220px, 55vw);
+  max-width: min(190px, 55vw);
   object-fit: contain;
 }
 
@@ -740,9 +740,9 @@ button:focus-visible {
 }
 
 .site-footer__logo img {
-  height: 30px;
+  height: 40px;
   width: auto;
-  max-width: min(210px, 55vw);
+  max-width: min(180px, 55vw);
   object-fit: contain;
 }
 
